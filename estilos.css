@@ -1,0 +1,513 @@
+/*Nav bar*/
+
+html,body {
+  margin: 0;
+  font-family: 'Roboto Slab', Arial, sans-serif, Verdana;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  
+
+}
+
+.container {
+width: 100%;
+  margin: 0 auto;
+  height: 90px;
+  background: #0c2340;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  margin-left: 170px;
+}
+
+
+.validation{
+    margin-right: 170px;
+}
+.validation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c2340;
+}
+
+.validation li {
+  float: right;
+}
+
+.validation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  padding-top: 35px;
+  text-decoration: none;
+}
+
+.validation li a:hover {
+  height: 45px;
+  background-color: #ffffff;
+}
+
+.validation a:hover{
+    color: #0c2340;
+}
+
+
+/*Main image*/
+
+/* Container needed to position the button. Adjust the width as needed */
+.Join {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  font-weight:bold;
+  color: #fff;
+  font-size: 40px;
+ 
+}
+
+/* Make the image responsive */
+.Join img {
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  filter: grayscale(30%);
+
+
+}
+
+
+
+
+/* Style the button and place it in the middle of the container/image */
+.Join .btn {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #0c2340;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.Join .image {
+  position: absolute;
+  top: 12%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  padding: 12px 24px;
+  border: none;
+  max-width: 85px;
+  max-height: 85px;
+}
+
+.Join .btn:hover {
+  background-color:#0c1440;
+}
+
+/*Centered text*/
+.centered {
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+}
+
+/*EVENTOS*/
+
+.Eventos{
+  width: 100%;
+  margin-right: 170px;
+  margin-left: 170px;
+  position: relative;
+  font-size: 25px;
+  color: black;
+}
+
+
+
+
+/*FORMULÁRIO CRIAÇÃO DE EVENTOS*/
+
+.criacaoEvento{
+  margin-right: 230px;
+  margin-left: 230px;
+}
+
+
+input[type=number]{
+  padding:15px 30px; 
+-webkit-border-radius: 15px;
+border-radius: 5px;
+}
+
+
+.criacaoEvento input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #0c2340;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 15%;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.criacaoEvento input[type="submit"]:hover
+{
+cursor: pointer;
+background: #2E4F78;
+color: #fff;
+}
+
+
+
+/*ADMIN PAGE*/
+.AdminPage{
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+.FormAdmin{
+  text-align: center;
+}
+
+.button{
+  padding:8px 20px; 
+background:#ffffff; 
+
+border:2px solid #0c2340;
+cursor:pointer;
+-webkit-border-radius: 5px;
+border-radius: 5px; 
+}
+
+.AdminPage input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 30px;
+  background:#0c2340;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 20px;
+  width: 25%;
+  margin-bottom: 20px;
+}
+
+.AdminPage input[type="submit"]:hover
+{
+cursor: pointer;
+background: #2E4F78;
+color: #fff;
+}
+
+
+
+/*Volunteer page*/
+
+/* Dropdown Button */
+.dropbtn {
+background-color: #0c2340;
+color: white;
+padding: 16px;
+padding-top: 35px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+background-color: #0c2340;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+position: relative;
+display: inline-block;
+margin-right: 170px;
+float: right;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+/*CHANGE PASSWORD PAGE*/
+.ChangePass{
+  width: 520px;
+  height: 620px;
+  background: #0c2340;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 50px 15px;
+  border-radius: 20px;
+}
+
+.FormPass{
+text-align: center;
+color: #000;
+}
+
+.ChangePass input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #2E4F78;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.ChangePass input[type="submit"]:hover
+{
+cursor: pointer;
+background: whitesmoke;
+color: #000;
+}
+
+
+/*Change Disponibilidade*/
+
+
+.ChangeDisp{
+  width: 580px;
+  height: 680px;
+  background: #0c2340;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 50px 15px;
+  border-radius: 20px;
+}
+
+.ChangeDisp input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #2E4F78;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.ChangeDisp input[type="submit"]:hover
+{
+cursor: pointer;
+background: whitesmoke;
+color: #000;
+}
+
+/*LOGIN PAGE*/
+
+/* In login.php para não ter erros relativamente às box's de insput's*/
+
+input[type=submit] {
+  padding:8px 20px; 
+  background:#ffffff; 
+  
+  border:2px solid #ccc;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  }
+
+/*REGIST0*/
+
+.RegisterForm{
+text-align: center;
+}
+
+.registerbox{
+  width: 680px;
+  height: 760px;
+  background: #0c2340;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 50px 15px;
+  border-radius: 20px;
+}
+
+.registerbox input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #2E4F78;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.reg1{
+  position: relative;
+  line-height: 0px;
+  -webkit-border-radius: 15px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  border-bottom: 1px solid #fff;
+
+}
+
+.reg2{
+  position: relative;
+  top:-85px;
+  line-height: 0px;
+  -webkit-border-radius: 15px;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  border-bottom: 1px solid #fff;
+
+}
+
+.registerbox a{
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgray;
+  padding-left: 220px;
+  }
+
+  .registerbox a:hover{
+		color: #fff;
+    }
+    
+    .registerbox input[type="submit"]:hover
+		{
+		cursor: pointer;
+		background: whitesmoke;
+		color: #000;
+		}
+
+input[type=date] {
+  margin: 0 auto;
+  font-size: 13px;
+  text-transform: uppercase;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 3px;
+}
+
+::-webkit-datetime-edit-month-field {
+  color: white;
+}
+::-webkit-datetime-edit-day-field {
+  color: white;
+}
+::-webkit-datetime-edit-year-field {
+  color: white;
+}
+
+::-webkit-calendar-picker-indicator {
+  font-size: 12px;
+  color: #fff;
+}
+
+
+
+
+
+/*Página de Detalhes de Evento*/
+.DetalhesEvento{
+margin-right: 170px;
+margin-left: 170px;
+}
+
+/*MODAL TABLE*/
+
+
+
+.modalTablee input[type="submit"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #0c2340;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.modalTablee input[type="submit"]:hover
+{
+cursor: pointer;
+background:  #2E4F78;
+color: #fff;
+}
+
+
+
+
+
+
+
+
